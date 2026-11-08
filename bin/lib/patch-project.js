@@ -37,7 +37,7 @@ function wrapDefaultExport(source) {
 async function patchEslintConfig({ cwd }) {
   const name = "eslint config";
   const file = await findFirst(cwd, ESLINT_CONFIGS);
-  if (!file) return { name, status: "manual", detail: "no eslint.config.* found; add one that spreads @mizanurrahman70/nk/eslint-config.js" };
+  if (!file) return { name, status: "manual", detail: "no eslint.config.* found; add one that spreads @mizanurrahman_70/nk/eslint-config.js" };
 
   const source = await fs.readFile(path.join(cwd, file), "utf8");
   if (source.includes(PACKAGE_NAME)) return { name, file, status: "ok", detail: "nk rules already applied" };

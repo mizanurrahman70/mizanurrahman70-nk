@@ -1,4 +1,4 @@
-import nk from "@mizanurrahman70/nk/tailwind-preset.js";
+import nk from "@mizanurrahman_70/nk/tailwind-preset.js";
 
 /** @type {import("tailwindcss").Config} */
 const config = {

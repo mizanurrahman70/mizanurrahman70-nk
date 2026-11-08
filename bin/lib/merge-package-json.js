@@ -1,7 +1,7 @@
 const path = require("path");
 const fs = require("fs-extra");
 
-const PACKAGE_NAME = "@mizanurrahman70/nk";
+const PACKAGE_NAME = "@mizanurrahman_70/nk";
 
 const SCRIPTS = {
   lint: "eslint",

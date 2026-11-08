@@ -28,7 +28,7 @@ Once you have them:
 ## 2. Tokens only
 
 Every color, size, space, radius and shadow comes from a token.
-Tokens are defined in `tokens.json` from `@mizanurrahman70/nk` and loaded through the Tailwind preset.
+Tokens are defined in `tokens.json` from `@mizanurrahman_70/nk` and loaded through the Tailwind preset.
 Brand values override them in `src/app/brand.css`.
 
 | Group | Utilities |
