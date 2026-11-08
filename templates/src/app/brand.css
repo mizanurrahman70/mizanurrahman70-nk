@@ -1,0 +1,18 @@
+/* The only place raw color values are allowed. Set from the client's brand guide, then check 4.5:1 contrast. */
+:root {
+  --brand-background: #FAFAF7;
+  --brand-surface: #FFFFFF;
+  --brand-muted: #F1F0EB;
+  --brand-foreground: #1A1A17;
+  --brand-foreground-muted: #57564F;
+  --brand-border: #DEDCD3;
+  --brand-primary: #1F4D3A;
+  --brand-primary-foreground: #FFFFFF;
+  --brand-accent: #A3471F;
+  --brand-accent-foreground: #FFFFFF;
+  --brand-inverse: #1A1A17;
+  --brand-inverse-foreground: #FAFAF7;
+  --brand-ring: #C2410C;
+  --brand-success: #067647;
+  --brand-danger: #B42318;
+}

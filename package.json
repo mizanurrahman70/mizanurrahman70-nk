@@ -1,0 +1,37 @@
+{
+  "name": "@mizanurrahman70/nk",
+  "version": "1.0.0",
+  "description": "Drop-in Claude Code rules, design tokens, ESLint limits and starter components for Next.js client proposal sites.",
+  "bin": {
+    "nk": "bin/init.js"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "tailwind-preset.js",
+    "tokens.json",
+    "eslint-config.js"
+  ],
+  "scripts": {
+    "test": "node bin/init.js --help"
+  },
+  "keywords": [
+    "nextjs",
+    "claude-code",
+    "design-system",
+    "tailwind",
+    "eslint",
+    "cli"
+  ],
+  "author": "mizanurrahman70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
